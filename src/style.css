@@ -1,0 +1,108 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  background-color: #121318;
+}
+
+.wrapper {
+  overflow: hidden;
+
+  box-shadow: 0px 0px 10px 5px #0d0d11;
+}
+
+.navbar {
+  background-color: #21222A;
+  padding: 1.5em;
+  display: flex;
+  gap: 15em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-cont {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.logo-img {
+  width: 60px;
+}
+
+.logo-text {
+  margin: 0;
+  font-family: Inter;
+  font-size: xx-large;
+  font-weight: 700;
+  color: #61DAFB;
+}
+
+.proj-1 {
+  margin: 0;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: large;
+  color: white;
+}
+
+
+.main {
+  background-image: url("./images/react-logo-2.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: 25%;
+
+  position: relative;
+  background-color: #282D35;
+  padding: 5em 3em 15em 3em;
+  display: flex;
+  align-items: center;
+}
+
+.text-cont {
+  max-width: 90%;
+}
+
+.title {
+  margin: 0;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+
+.list {
+  margin: 0;
+  line-height: 200%;
+  color: white;
+  margin-top: 30px;
+  font-size: x-large;
+
+  font-family: Inter;
+  font-weight: 400;
+
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  gap: 1em;
+}
+
+.list-item::before {
+  margin-top: 16px;
+  display: inline-block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50vw;
+  background-color: #61DAFB;
+}
